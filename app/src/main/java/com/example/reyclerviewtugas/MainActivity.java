@@ -30,9 +30,10 @@ public class MainActivity extends AppCompatActivity implements AdapterR.OnItemCl
         listJurusan.setLayoutManager(new LinearLayoutManager(this));
         ArrayList<ModelR> data = new ArrayList<>();
         data.add(new ModelR("PPLG", "100 siswa",R.drawable.pplg));
-        data.add(new ModelR("DKV", "200 siswa",R.drawable.dkv));
+        data.add(new ModelR("DKV DG", "200 siswa",R.drawable.dkv));
         data.add(new ModelR("Anim 2d", "300 siswa",R.drawable.duadimensi));
         data.add(new ModelR("Anim 3d", "350 siswa",R.drawable.tigadimesni));
+        data.add(new ModelR("DKV TG", "250 siswa",R.drawable.dkvtg));
 
         AdapterR adapterR = new AdapterR(data, this);
         listJurusan.setAdapter(adapterR);
