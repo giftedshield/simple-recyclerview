@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterR.OnItemCl
         listJurusan = (RecyclerView) findViewById(R.id.recyclermain);
         listJurusan.setLayoutManager(new LinearLayoutManager(this));
         ArrayList<ModelR> data = new ArrayList<>();
-        data.add(new ModelR("PPLG", "100 siswa",R.drawable.pplg));
+        data.add(new ModelR("PPLG ", "100 siswa",R.drawable.pplg));
         data.add(new ModelR("DKV DG", "200 siswa",R.drawable.dkv));
         data.add(new ModelR("Anim 2d", "300 siswa",R.drawable.duadimensi));
         data.add(new ModelR("Anim 3d", "350 siswa",R.drawable.tigadimesni));
