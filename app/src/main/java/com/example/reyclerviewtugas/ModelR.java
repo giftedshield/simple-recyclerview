@@ -14,7 +14,6 @@ public class ModelR {
     public String getNamaJurusan() {
         return namaJurusan;
     }
-
     public String getJumlahSiswa() {
         return jumlahSiswa;
     }
